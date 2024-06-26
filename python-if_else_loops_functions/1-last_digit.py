@@ -8,7 +8,7 @@ if number < 0:
 
 prefix = "Last digit of {} is {} and is ".format(number, cond)
 
-if cond < 6 and cond != 0 :
+if cond < 6 and cond != 0:
     print(prefix + "less than 6 and not 0")
 elif cond > 5:
     print(prefix + "greater than 5")
