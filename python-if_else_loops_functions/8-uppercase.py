@@ -6,5 +6,5 @@ def uppercase(s):
             uppercase_char = chr(ord(char) - ord('a') + ord('A'))
         else:
             uppercase_char = char
-        result += uppercase_char 
+        result += uppercase_char
     print("{}".format(result))
