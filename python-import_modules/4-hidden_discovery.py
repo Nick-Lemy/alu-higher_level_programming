@@ -14,7 +14,10 @@ def print_module_names(module_file):
     module_names = dir(module)
 
     # Filter names that do not start with '__'
-    filtered_names = [name for name in module_names if not name.startswith('__')]
+    filtered_names = [
+            name for name in module_names 
+            if not name.startswith('__')
+            ]
 
     # Sort filtered names alphabetically
     filtered_names.sort()
