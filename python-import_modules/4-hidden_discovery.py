@@ -30,4 +30,3 @@ if __name__ == "__main__":
 
     # Print the names from the module
     print_module_names(module_file)
-
