@@ -7,9 +7,7 @@ def print_module_names(module_file):
     sys.modules["hidden_module"] = module
     spec.loader.exec_module(module)
     module_names = dir(module)
-    for name in module_names:
-        filtered_names = sorted(name)
-    #filtered_names = sorted(name for name in module_names if not name.startswith('__'))
+    filtered_names = sorted(name for name in module_names if not name.startswith('__'))
     for name in filtered_names:
         print(name)
 if __name__ == "__main__":
