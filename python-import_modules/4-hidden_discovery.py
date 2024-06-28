@@ -2,6 +2,7 @@
 import importlib.util
 import sys
 
+
 def print_module_names(module_file):
     # Load the module from the .pyc file
     spec = importlib.util.spec_from_file_location("hidden_module", module_file)
@@ -19,9 +20,11 @@ def print_module_names(module_file):
     for name in filtered_names:
         print(name)
 
+
 if __name__ == "__main__":
     # Specify the path to the compiled module hidden_4.pyc
     module_file = "./hidden_4.pyc"
 
     # Print the names from the module
     print_module_names(module_file)
+
