@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 def divisible_by_2(my_list=[]):
+    result = []
     if len(my_list) > 0:
-        result = []
-        for i in result:
+        for i in my_list:
             if i % 2 == 0:
                 result.append(i)
             else:
                 pass
-        return result
-    else:
-        return my_list
+    return result
+
+my_list = []
+print(divisible_by_2(my_list))
