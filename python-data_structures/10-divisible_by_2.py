@@ -4,10 +4,7 @@ def divisible_by_2(my_list=[]):
     if len(my_list) > 0:
         for i in my_list:
             if i % 2 == 0:
-                result.append(i)
+                result.append(True)
             else:
-                pass
+                result.append(False)
     return result
-
-my_list = []
-print(divisible_by_2(my_list))
