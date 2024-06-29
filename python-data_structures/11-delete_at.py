@@ -5,7 +5,7 @@ def delete_at(my_list=[], idx=0):
     else:
         result =[]
         for i in my_list:
-            if my_list[i] != my_list[idx]:
+            if i != my_list[idx]:
                 result.append(i)
             else:
                 pass
