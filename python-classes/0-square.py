@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Create Square Class"""
+'''
+empty class
+'''
+
 class Square:
-    """
-    Class Square
-    """
-    pass
+        pass
