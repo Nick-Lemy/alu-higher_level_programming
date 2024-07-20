@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-
-"""
-Load, add, save
-"""
 import sys
+"""
+7. Load, add, save
+"""
 
 
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
