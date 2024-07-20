@@ -1,2 +1,2 @@
 -- comment
-SELECT score, name FROM second_table ORDER BY score*-1 >= 10;
+SELECT score, name FROM second_table WHERE score >= 10;
