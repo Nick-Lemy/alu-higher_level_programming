@@ -1,2 +1,2 @@
 -- comments
-SELECT SUM(score)/COUNT(*) FROM second_table;
+SELECT SUM(score)/COUNT(*) as average FROM second_table;
