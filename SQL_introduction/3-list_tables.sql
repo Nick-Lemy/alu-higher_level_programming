@@ -1,2 +1,2 @@
 -- Comment's here
-SELECT * FROM mysql;
+SELECT IF EXISTS * FROM mysql;
