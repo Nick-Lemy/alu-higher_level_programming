@@ -11,7 +11,7 @@ def write_file(filename="", text=""):
 
     a=0
     with open(filename, 'w') as f:
-        f.write(text, '\n')
+        f.write(f'{text}\n')
         for i in text:
             a+=1
         return a
