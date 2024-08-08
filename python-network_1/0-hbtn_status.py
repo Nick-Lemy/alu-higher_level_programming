@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import urllib.request
 
-url = "http://0.0.0.0:5050/status"
+url = "https://intranet.hbtn.io/status"
 
 try:
     with urllib.request.urlopen(url) as response:
@@ -13,3 +13,4 @@ try:
     print("\t- utf8 content: {}".format(content.decode('utf-8')))
 except urllib.error.URLError as e:
     print("[stderr]:", e.reason)
+
