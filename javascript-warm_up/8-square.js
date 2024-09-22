@@ -3,7 +3,7 @@
 const { argv } = require('node:process');
 
 let number = Math.floor(argv[2]);
-x = '';
+let x = '';
 if (number) {
   for (let i = number; i > 0; i--) {
     x += 'X';
