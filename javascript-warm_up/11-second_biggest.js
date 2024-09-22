@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const { argv } = require('node:process');
-const liste = [0];
+const liste = [];
 
 for (let i = argv.length - 1; i > 1; i--) {
   liste.push(Math.floor(argv[i]));
