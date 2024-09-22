@@ -2,7 +2,7 @@
 
 const { argv } = require('node:process');
 
-let number = argv[2];
+let number = Math.floor(argv[2]);
 x = '';
 if (number) {
   for (let i = number; i > 0; i--) {
