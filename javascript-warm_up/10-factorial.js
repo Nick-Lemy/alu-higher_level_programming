@@ -9,7 +9,4 @@ function factorial (a) {
 }
 
 const { argv } = require('node:process');
-
-const number = Math.floor(argv[2]);
-
-console.log(factorial(number));
+console.log(factorial(argv[2]));
