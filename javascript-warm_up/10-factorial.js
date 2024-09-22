@@ -1,12 +1,12 @@
 #!/usr/bin/node
 
-function factorial (a) {
-  let result = 1;
-  for (a; a > 0; a--) {
-    result *= a;
+function Factorial (num) {
+  if (num === 1) {
+    return 1;
+  } else {
+    return (num * Factorial(num - 1));
   }
-  return result;
 }
 
 const { argv } = require('node:process');
-console.log(factorial(argv[2]));
+console.log(Factorial(argv[2]));
