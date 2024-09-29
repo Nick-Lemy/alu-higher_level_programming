@@ -3,11 +3,11 @@
 class Rectangle {
   constructor (w, h) {
     if (h <= 0 || w <= 0) {
-      this.width = undefined;
-      this.height = undefined;
+      this.width;
+      this.height;
     } else if (h === undefined || w == undefined) {
-      this.width = undefined;
-      this.height = undefined;
+      this.width;
+      this.height;
     } else {
       this.width = w;
       this.height = h;
