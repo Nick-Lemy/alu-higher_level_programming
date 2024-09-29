@@ -7,7 +7,8 @@ class Rectangle {
     } else if (h === undefined || w === undefined) {
       return this;
     } else {
-      return this;
+      this.width = w;
+      this.height = h;
     }
   }
 }
