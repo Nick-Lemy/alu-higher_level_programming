@@ -13,6 +13,6 @@ request(link, function (error, response, body) {
     console.error(error);
   } else {
     const films = JSON.parse(body).results;
-    console.log(films[id].title);
+    console.log(films[id - 1].title);
   }
 });
